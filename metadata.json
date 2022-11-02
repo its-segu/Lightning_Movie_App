@@ -1,0 +1,6 @@
+{
+  "name": "ImdbProject",
+  "identifier": "com.domain.app.ImdbProject",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}
