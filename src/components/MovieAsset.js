@@ -1,12 +1,11 @@
 import { Lightning } from "@lightningjs/sdk";
 
-export class MovieImage extends Lightning.Component {
+export class MovieAsset extends Lightning.Component {
   static _template() {
     return {
       transitions: {
         x: {
           duration: 0.5,
-          // timingFunction: "cubic-bezier(0.17, 0.9, 0.32, 1.3)",
         },
       },
       MovieTitle: {

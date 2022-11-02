@@ -1,6 +1,6 @@
 import { Lightning, Router, Utils } from "@lightningjs/sdk";
 import { getMovie } from "../lib/Api";
-import { MovieImage } from "../Components/MovieImage";
+import { MovieAsset } from "../components/MovieAsset";
 
 export class Home extends Lightning.Component {
   static _template() {
@@ -46,7 +46,7 @@ export class Home extends Lightning.Component {
         overview: item.overview,
         releaseDate: item.release_date,
         movieID: item.id,
-        type: MovieImage,
+        type: MovieAsset,
         src:
           "https://image.tmdb.org/t/p/w500" +
           item.poster_path +
